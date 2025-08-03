@@ -31,9 +31,12 @@ async function handleRequest(request) {
               <li><code>/avatar/100</code> - 获取100x100头像</li>
               <li><code>/avatar/640</code> - 获取640x640头像</li>
             </ul>
-            <p>示例: <a href="/avatar">/avatar</a></p>
-            <img src="/avatar" alt="QQ头像" style="border: 1px solid #ccc;">
-          </body>
+            <p>默认大小头像（100x100）: <a href="/avatar">/avatar</a></p>
+            <p>40x40头像: <a href="/avatar/40">/avatar/40</a></p>
+            <p>100x100头像: <a href="/avatar/100">/avatar/100</a></p>
+            <p>640x640头像: <a href="/avatar/640">/avatar/640</a></p>
+            <h3>目前配置的QQ号的头像</h3>
+            <img src="/avatar" alt="QQ头像" style="border: 1px solid #ccc;">          </body>
         </html>
       `, {
         headers: {
