@@ -1,0 +1,17 @@
+name = "qq-avatar-proxy"
+main = "worker.js"
+compatibility_date = "2023-12-01"
+
+# 环境变量配置
+[vars]
+QQ_NUMBER = "10000"  # 默认QQ号，可以在Cloudflare Dashboard中修改
+
+# 生产环境配置
+[env.production]
+name = "qq-avatar-proxy"
+vars = { QQ_NUMBER = "10000" }
+
+# 开发环境配置
+[env.dev]
+name = "qq-avatar-proxy-dev"
+vars = { QQ_NUMBER = "10000" }

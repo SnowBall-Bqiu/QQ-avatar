@@ -1,0 +1,30 @@
+{
+  "name": "qq-avatar-proxy",
+  "version": "1.0.0",
+  "description": "QQ头像反向代理服务 - 基于 Cloudflare Workers",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:dev": "wrangler deploy --env dev",
+    "deploy:prod": "wrangler deploy --env production",
+    "login": "wrangler login",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "qq",
+    "avatar",
+    "proxy",
+    "reverse-proxy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
