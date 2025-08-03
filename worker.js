@@ -24,7 +24,6 @@ async function handleRequest(request) {
           </head>
           <body>
             <h1>QQ头像代理服务</h1>
-            <p>当前配置的QQ号: ${qqNumber}</p>
             <p>访问路径:</p>
             <ul>
               <li><code>/avatar</code> - 获取默认大小头像 (100x100)</li>
