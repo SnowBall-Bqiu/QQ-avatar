@@ -1,6 +1,8 @@
 # QQ-avatar
 一个简单的QQ头像获取工具
 
+<img width="832" height="691" alt="image" src="https://github.com/user-attachments/assets/da165fec-1d01-4563-a65b-41838becde91" />
+
 ## 功能特点
 
 - 支持通过QQ号获取用户头像
